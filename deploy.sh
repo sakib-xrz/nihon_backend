@@ -6,10 +6,10 @@ echo "Deployment started..."
 echo "Pull latest changes from main branch..."
 git pull origin main
 
-echo "Building the project..."
-npm run build
- 
 echo "Installing Dependencies..."
 npm install --yes
+
+echo "Building the project..."
+npm run build
  
 echo "Deployment Completed Successfully!"
