@@ -14,6 +14,8 @@ app.use(cookieParser());
 app.use(
   cors({
     origin: [
+      'https://nihonelegant.com',
+      'https://www.nihonelegant.com',
       'http://localhost:3000',
       'http://localhost:5173',
       'https://nihonbeautyfrontend.vercel.app',
